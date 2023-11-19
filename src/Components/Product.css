@@ -1,0 +1,48 @@
+.product {
+  width: 500px;
+  height: 80px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 1px solid gray;
+}
+
+.product-info {
+  width: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.product-name {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.product-nums {
+  width: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.product-nums input {
+  width: 30px;
+  margin-bottom: 10px;
+}
+
+.product-add-btn {
+  width: 80px;
+  margin: 10px;
+}
