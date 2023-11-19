@@ -11,9 +11,9 @@ const Cart = () => {
   const totalPrice = () => {
     let total = 0;
 
-    PRODUCTS.map((product) => {
-      total += cartItems[product.id] * product.price;
-    });
+    for (let i = 0; i < PRODUCTS.length; i++) {
+      total += cartItems[i + 1] * PRODUCTS[i].price;
+    }
 
     return total;
   };
